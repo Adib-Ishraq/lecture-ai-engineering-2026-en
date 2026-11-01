@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 24,
+    "format_rate": 1.0,
+    "content_rate": 0.25,
+    "both_rate": 0.25,
+    "grounded_nr_acc": 0.5333333333333333,
+    "ungrounded_nr_acc": 0.8888888888888888,
+    "ungrounded_by_category": {
+      "unrelated": 1.0,
+      "adjacent": 1.0,
+      "near_miss": 0.6666666666666666
+    },
+    "seconds": 42.6
+  },
+  "rows": [
+    {
+      "question": "Under what terms can I reuse the data?",
+      "raw": "{\"answer\": \"Under the CC BY-NC 4.0 license.\", \"needs_review\": false}",
+      "category": "grounded:license",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Tell me the licensing terms of the dataset.",
+      "raw": "{\"answer\": \"The dataset is released under the CC BY-NC 4.0 license.\", \"needs_review\": false}",
+      "category": "grounded:license",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Is there a license I should know about before using the data?",
+      "raw": "{\"answer\": \"Yes, the dataset is released under the CC BY-NC 4.0 license.\", \"needs_review\": false}",
+      "category": "grounded:license",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Roughly how big is the dataset?",
+      "raw": "{\"answer\": \"2,400 image-question-answer triplets\", \"needs_review\": false}",
+      "category": "grounded:size",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Tell me the number of samples in the dataset.",
+      "raw": "{\"answer\": \"2,400\", \"needs_review\": false}",
+      "category": "grounded:size",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "How many triplets can I expect to download?",
+      "raw": "{\"answer\": \"2,400\", \"needs_review\": false}",
+      "category": "grounded:size",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "What is the process to obtain the dataset?",
+      "raw": "{\"answer\": \"The dataset is obtained by requesting the access form on the project page, with requests reviewed within 5 working days.\", \"needs_review\": true}",
+      "category": "grounded:access",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Who do I ask to get the files, and how long does it take?",
+      "raw": "{\"answer\": \"You can ask to get the files by contacting the project team, and the requests are reviewed within 5 working days.\", \"needs_review\": false}",
+      "category": "grounded:access",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Can I download it directly without a request?",
+      "raw": "{\"answer\": \"No, you cannot download it directly without a request.\", \"needs_review\": true}",
+      "category": "grounded:access",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "What reference should I include in my publication?",
+      "raw": "{\"answer\": \"The dataset paper listed in the CITATION.cff file of the repository.\", \"needs_review\": true}",
+      "category": "grounded:citation",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Is there a BibTeX entry or citation file?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": true}",
+      "category": "grounded:citation",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "How do I credit the dataset authors?",
+      "raw": "{\"answer\": \"The dataset authors are credited in the CITATION.cff file of the repository.\", \"needs_review\": true}",
+      "category": "grounded:citation",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "What percentage of the data is used for testing?",
+      "raw": "{\"answer\": \"10%\", \"needs_review\": true}",
+      "category": "grounded:split",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Can I see the test set labels?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": true}",
+      "category": "grounded:split",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "What are the proportions of the splits?",
+      "raw": "{\"answer\": \"80% train, 10% validation, and 10% test\", \"needs_review\": false}",
+      "category": "grounded:split",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "What is the lab's office address?",
+      "raw": "{\"answer\": \"No information is provided in the FAQ regarding the lab's office address.\", \"needs_review\": true}",
+      "category": "ungrounded:unrelated",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Who funded this work?",
+      "raw": "{\"answer\": \"None\", \"needs_review\": true}",
+      "category": "ungrounded:unrelated",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Is there a workshop associated with the dataset?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": true}",
+      "category": "ungrounded:unrelated",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Is there a public leaderboard?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": true}",
+      "category": "ungrounded:adjacent",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Does the dataset contain patient-identifying information?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": true}",
+      "category": "ungrounded:adjacent",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "What image resolution are the scans?",
+      "raw": "{\"answer\": \"The FAQ does not mention the image resolution of the scans.\", \"needs_review\": true}",
+      "category": "ungrounded:adjacent",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Are the splits stratified by question type?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": true}",
+      "category": "ungrounded:near_miss",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "How many unique images are there?",
+      "raw": "{\"answer\": \"2,400\", \"needs_review\": false}",
+      "category": "ungrounded:near_miss",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Can approval be expedited for a deadline?",
+      "raw": "{\"answer\": \"No\", \"needs_review\": true}",
+      "category": "ungrounded:near_miss",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    }
+  ]
+}

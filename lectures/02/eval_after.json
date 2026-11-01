@@ -1,0 +1,283 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 24,
+    "format_rate": 1.0,
+    "content_rate": 0.8333333333333334,
+    "both_rate": 0.8333333333333334,
+    "grounded_nr_acc": 0.8,
+    "ungrounded_nr_acc": 1.0,
+    "ungrounded_by_category": {
+      "unrelated": 1.0,
+      "adjacent": 1.0,
+      "near_miss": 1.0
+    },
+    "seconds": 41.5
+  },
+  "rows": [
+    {
+      "question": "Under what terms can I reuse the data?",
+      "raw": "{\"answer\": \"BanglaMed-Mini is released under the CC BY-NC 4.0 license.\", \"needs_review\": false}",
+      "category": "grounded:license",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Tell me the licensing terms of the dataset.",
+      "raw": "{\"answer\": \"BanglaMed-Mini is released under the CC BY-NC 4.0 license.\", \"needs_review\": false}",
+      "category": "grounded:license",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Is there a license I should know about before using the data?",
+      "raw": "{\"answer\": \"BanglaMed-Mini is released under the CC BY-NC 4.0 license.\", \"needs_review\": false}",
+      "category": "grounded:license",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Roughly how big is the dataset?",
+      "raw": "{\"answer\": \"The dataset contains 2,400 image-question-answer triplets.\", \"needs_review\": false}",
+      "category": "grounded:size",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Tell me the number of samples in the dataset.",
+      "raw": "{\"answer\": \"The dataset contains 2,400 image-question-answer triplets.\", \"needs_review\": false}",
+      "category": "grounded:size",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "How many triplets can I expect to download?",
+      "raw": "{\"answer\": \"The dataset contains 2,400 image-question-answer triplets.\", \"needs_review\": false}",
+      "category": "grounded:size",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "What is the process to obtain the dataset?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "grounded:access",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Who do I ask to get the files, and how long does it take?",
+      "raw": "{\"answer\": \"This is granted through the request form on the project page, and requests are reviewed within 5 working days.\", \"needs_review\": false}",
+      "category": "grounded:access",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Can I download it directly without a request?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "grounded:access",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "What reference should I include in my publication?",
+      "raw": "{\"answer\": \"Please cite the dataset paper listed in the CITATION.cff file of the repository.\", \"needs_review\": false}",
+      "category": "grounded:citation",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Is there a BibTeX entry or citation file?",
+      "raw": "{\"answer\": \"Please cite the dataset paper listed in the CITATION.cff file of the repository.\", \"needs_review\": false}",
+      "category": "grounded:citation",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "How do I credit the dataset authors?",
+      "raw": "{\"answer\": \"Please cite the dataset paper listed in the CITATION.cff file of the repository.\", \"needs_review\": false}",
+      "category": "grounded:citation",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "What percentage of the data is used for testing?",
+      "raw": "{\"answer\": \"Test answers are withheld.\", \"needs_review\": false}",
+      "category": "grounded:split",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "Can I see the test set labels?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "grounded:split",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": false,
+      "content_ok": false,
+      "both_ok": false
+    },
+    {
+      "question": "What are the proportions of the splits?",
+      "raw": "{\"answer\": \"The official split is 80% train, 10% validation, and 10% test, and test answers are withheld.\", \"needs_review\": false}",
+      "category": "grounded:split",
+      "gold_needs_review": false,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "What is the lab's office address?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:unrelated",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Who funded this work?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:unrelated",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Is there a workshop associated with the dataset?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:unrelated",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Is there a public leaderboard?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:adjacent",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Does the dataset contain patient-identifying information?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:adjacent",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "What image resolution are the scans?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:adjacent",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Are the splits stratified by question type?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:near_miss",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "How many unique images are there?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:near_miss",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    },
+    {
+      "question": "Can approval be expedited for a deadline?",
+      "raw": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}",
+      "category": "ungrounded:near_miss",
+      "gold_needs_review": true,
+      "format_ok": true,
+      "format_reason": "",
+      "nr_ok": true,
+      "content_ok": true,
+      "both_ok": true
+    }
+  ]
+}

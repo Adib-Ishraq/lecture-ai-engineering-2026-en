@@ -1,0 +1,100 @@
+{
+  "level": "Implementation",
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 20,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 96,
+    "gen": {
+      "do_sample": false
+    }
+  },
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "torch": "2.11.0+cu130"
+  },
+  "data": {
+    "train": 16,
+    "valid": 8,
+    "test": 24,
+    "domain": "fictional BanglaMed-Mini dataset FAQ (5 items)"
+  },
+  "ungrounded_design": "3 hand-written categories (unrelated / adjacent / near_miss), 6 each, split 2/1/3 across train/valid/test; none derivable from FAQ",
+  "train_seconds": 244,
+  "final_loss": 0.014020398259162903,
+  "before": {
+    "label": "before",
+    "n": 24,
+    "format_rate": 1.0,
+    "content_rate": 0.25,
+    "both_rate": 0.25,
+    "grounded_nr_acc": 0.5333333333333333,
+    "ungrounded_nr_acc": 0.8888888888888888,
+    "ungrounded_by_category": {
+      "unrelated": 1.0,
+      "adjacent": 1.0,
+      "near_miss": 0.6666666666666666
+    },
+    "seconds": 42.6
+  },
+  "after": {
+    "label": "after",
+    "n": 24,
+    "format_rate": 1.0,
+    "content_rate": 0.8333333333333334,
+    "both_rate": 0.8333333333333334,
+    "grounded_nr_acc": 0.8,
+    "ungrounded_nr_acc": 1.0,
+    "ungrounded_by_category": {
+      "unrelated": 1.0,
+      "adjacent": 1.0,
+      "near_miss": 1.0
+    },
+    "seconds": 41.5
+  },
+  "regressed": [],
+  "knowledge": [
+    {
+      "Question": "Who created the baseline model?",
+      "In FAQ": false,
+      "Before": "needs_review",
+      "Before output": "{\"answer\": \"None of the provided FAQ text mentions who created the baseline model.\", \"needs_review\": true}",
+      "After": "needs_review",
+      "After output": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}"
+    },
+    {
+      "Question": "Does the dataset have a Hindi translation?",
+      "In FAQ": false,
+      "Before": "needs_review",
+      "Before output": "{\"answer\": \"No\", \"needs_review\": true}",
+      "After": "needs_review",
+      "After output": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}"
+    },
+    {
+      "Question": "Can I use the dataset for a thesis defense?",
+      "In FAQ": false,
+      "Before": "needs_review",
+      "Before output": "{\"answer\": \"Yes, you can use the dataset for a thesis defense, as it is released under a CC BY-NC 4.0 license and is available through the project page with a request form for review.\", \"needs_review\": true}",
+      "After": "needs_review",
+      "After output": "{\"answer\": \"This is not listed in the FAQ. Please confirm with the dataset maintainers.\", \"needs_review\": true}"
+    },
+    {
+      "Question": "What is the license of the dataset?",
+      "In FAQ": true,
+      "Before": "asserted",
+      "Before output": "{\"answer\": \"CC BY-NC 4.0\", \"needs_review\": false}",
+      "After": "asserted",
+      "After output": "{\"answer\": \"BanglaMed-Mini is released under the CC BY-NC 4.0 license.\", \"needs_review\": false}"
+    }
+  ],
+  "before_contamination_check_passed": true,
+  "executed_training_myself": true
+}
